@@ -1,21 +1,24 @@
-import operate from '../logic/operate';
+import operate from './operate';
 
-function calculate(calculator, buttonName){
-  const {total, next, operation} = calculator;
-  switch (buttonName){
-    case '+/-': 
+function calculate(calculator, buttonName) {
+  let { total, next } = calculator;
+  const { operation } = calculator;
+  switch (buttonName) {
+    case '+/-':
       total *= -1;
       next *= -1;
-    break;
+      break;
     case 'AC':
       total = 0;
       next = 0;
-    break;
+      break;
     case '=':
       total = operate(total, next, operation);
       break;
+    default:
+      break;
   }
-  return {total, next, operation};
+  return { total, next, operation };
 }
 
 export default calculate;
