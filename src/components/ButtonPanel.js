@@ -1,7 +1,7 @@
-import React from "react";
-import Button from "./Button";
+import React from 'react';
+import Button from './Button';
 
-function ButtonPanel(props) {
+function ButtonPanel() {
   return (
     <div>
       <div>
