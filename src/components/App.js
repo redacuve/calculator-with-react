@@ -6,7 +6,7 @@ import ButtonPanel from './ButtonPanel';
 class App extends React.Component { // eslint-disable-line react/prefer-stateless-function
   render() {
     return (
-      <div className="App">
+      <div className="app">
         <Display />
         <ButtonPanel />
       </div>
