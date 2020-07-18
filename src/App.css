@@ -11,6 +11,8 @@
   padding: 1.3rem 0.5rem;
   text-align: right;
   font-size: 50px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .button-panel {
