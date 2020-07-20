@@ -1,21 +1,26 @@
 .app {
+  display: flex;
+  flex-wrap: wrap;
   width: 700px;
 }
 
 .display {
+  display: flex;
+  justify-content: flex-end;
   box-sizing: border-box;
   background-color: gray;
   height: 100px;
+  width: 100%;
   color: white;
   font-weight: bold;
   padding: 1.3rem 0.5rem;
-  text-align: right;
   font-size: 50px;
 }
 
 .button-panel {
   display: flex;
   flex-wrap: wrap;
+  width: 100%;
 }
 
 .button-panel div {
