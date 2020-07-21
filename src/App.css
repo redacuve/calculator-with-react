@@ -1,0 +1,37 @@
+.app {
+  display: flex;
+  flex-wrap: wrap;
+  width: 700px;
+}
+
+.display {
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+  background-color: gray;
+  height: 100px;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  padding: 1.3rem 0.5rem;
+  font-size: 50px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.button-panel {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.button-panel div {
+  height: 100px;
+  width: 100%;
+}
+
+.button {
+  height: 100%;
+  font-size: 2rem;
+  border: solid 1px lightgray;
+}
