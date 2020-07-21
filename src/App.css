@@ -15,6 +15,8 @@
   font-weight: bold;
   padding: 1.3rem 0.5rem;
   font-size: 50px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .button-panel {
