@@ -11,6 +11,8 @@
 
 
 <!-- Project Header -->
+ <p align="center">
+    <img src="calculator.png" width="250">
   <h1 align="center">Project React Calculator</h1>
   <p align="center">
   <br>
@@ -38,8 +40,6 @@
 
 * [Contact](#contact)
 
-* [Acknowledgements](#acknowledgements)
-
 <!-- ABOUT THE PROJECT -->
 
 ## About The Project
@@ -47,6 +47,9 @@
 This is a simple project build with REACT.
 This is a calculator for a fictional company, this calculator performs basic arithmetical operations.
 
+<p align="center">
+  <img src="calculator.gif" width="450">
+</p>
 
 ### Built With
 
