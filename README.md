@@ -20,7 +20,7 @@
   <br>
     <a href="https://github.com/redacuve/calculator-with-react/issues">Request Feature</a>
   </p>
-  <h2 align="center"><a href="https://calculator-react-project.herokuapp.com/"><strong>Live Link!</strong></a></h2>
+  <h2 align="center"><a href="https://calculator-react-project.netlify.app/"><strong>Live Link!</strong></a></h2>
 
 <!-- TABLE OF CONTENTS -->
 
